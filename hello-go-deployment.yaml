@@ -18,4 +18,4 @@ spec:
         - image: gcr.io/heptio-images/golang@sha256:ba5ff1400298b87ed2e65f1da301e54d7e2bc4163e900c476ca84ad1d7e4606f
           name: hello-go
           ports:
-            - containerPort: 80
+            - containerPort: 8080
