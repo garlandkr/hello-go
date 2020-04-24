@@ -15,7 +15,7 @@ spec:
         app: hello-go
     spec:
       containers:
-        - image: golang/alpine
+        - image: gcr.io/heptio-images/golang
           name: hello-go
           ports:
             - containerPort: 80
