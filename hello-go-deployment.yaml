@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: hello-go
-          image: garlandkr/hello-go:0.2
+          image: garlandkr/hello-go:0.1
           ports:
-            - containerPort: 80
+            - containerPort: 8080
